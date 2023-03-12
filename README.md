@@ -3,7 +3,7 @@ Project description from HiCounselor website: [Link](https://hicounselor.com/pro
 
 ![Image](https://user-images.githubusercontent.com/127648422/224529590-829d20b8-d812-416e-ba33-c11a11132d7f.png)
 
-Project Description
+####Project Description
 This project will train you how to use SQL to analyze a real-world database, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance, how to use a structured query language to retrieve useful information from the database, and how to visualize the data using the PowerBI tool.
 This project is divided into three modules: 
 ## Module 1: Data Pre-processing
