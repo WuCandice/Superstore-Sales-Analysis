@@ -5,11 +5,12 @@ Project description from HiCounselor website: [Link](https://hicounselor.com/pro
 
 #### Project Description
 This project will train you how to use SQL to analyze a real-world database, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance, how to use a structured query language to retrieve useful information from the database, and how to visualize the data using the PowerBI tool.
+
 This project is divided into three modules: 
 ## Module 1: Data Pre-processing
 In this Module you will be working on how to perform pre-processing of data and working on handling null values, deletion or transformation of irrelevant values, data type transformation, removing duplicates and data validations to get refined and cleaner data to perform further analysis. 
 
-Steps to perform Data Pre-processing: 
+#### Steps to perform Data Pre-processing: 
 
 Step 1: Removing duplicate rows ( there could be duplicate rows excluding Row_ID column ).
 
@@ -22,7 +23,7 @@ Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding.
 Step 5: Convert the pre-processed dataset into an SQL file and import it to table named "superstore".
 ## Module 2 Data Analysis using SQL
 In this module, you will be working on performing data analysis on the pre-processed data from the previous module and conducting Data Analysis using SQL. You will generate queries for given problem statements. 
-Write an SQL query to solve the given problem statement. 
+#### Write an SQL query to solve the given problem statement. 
 
 #1. What percentage of total orders were shipped on the same date?
 
