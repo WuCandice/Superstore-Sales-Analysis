@@ -2,6 +2,7 @@
 Project description from HiCounselor website: [Link](https://hicounselor.com/projects/superstore-sales-analysis-data-visualisation)
 
 ![Image](https://user-images.githubusercontent.com/127648422/224529590-829d20b8-d812-416e-ba33-c11a11132d7f.png)
+
 Project Description
 This project will train you how to use SQL to analyze a real-world database, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance, how to use a structured query language to retrieve useful information from the database, and how to visualize the data using the PowerBI tool.
 This project is divided into three modules: 
@@ -19,7 +20,7 @@ Step 3: Remove irrelevant values from each column if any. Validation of all valu
 Step 4: Export the cleaned dataset as a .csv file: prefer UTF-8 encoding.
 
 Step 5: Convert the pre-processed dataset into an SQL file and import it to table named "superstore".
-##Module 2 Data Analysis using SQL
+## Module 2 Data Analysis using SQL
 In this module, you will be working on performing data analysis on the pre-processed data from the previous module and conducting Data Analysis using SQL. You will generate queries for given problem statements. 
 Write an SQL query to solve the given problem statement. 
 #1. What percentage of total orders were shipped on the same date?
@@ -49,5 +50,5 @@ Write an SQL query to solve the given problem statement.
 #13. Find all the customers who individually ordered on 3 consecutive days where each day’s total order was more than 50 in value. **
 
 #14. Find the maximum number of days for which total sales on each day kept rising.
-##Module 3 Data Visualisation and Dashboarding using Power Bi/Tableau.
+## Module 3 Data Visualisation and Dashboarding using Power Bi/Tableau.
 In this Module, You will use the existing datasets from the previous module to visualize the messages that the numbers in and underneath the data desire to express. For visual comprehension and analysis, you will develop a dashboard employing various statistics graphs and diagrams. Develop and create a dashboard using the stated visuals in accordance with the specifications.
