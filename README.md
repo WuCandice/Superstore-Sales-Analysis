@@ -6,11 +6,11 @@ Project description from HiCounselor website: [Link](https://hicounselor.com/pro
 #### Project Description
 This project will train you how to use SQL to analyze a real-world database, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance, how to use a structured query language to retrieve useful information from the database, and how to visualize the data using the PowerBI tool.
 
+download the superstore dataset: Click here
+
 This project is divided into three modules: 
 ## Module 1: Data Pre-processing
 In this Module you will be working on how to perform pre-processing of data and working on handling null values, deletion or transformation of irrelevant values, data type transformation, removing duplicates and data validations to get refined and cleaner data to perform further analysis. 
-
-download the superstore dataset: Click here
 
 #### Steps to perform Data Pre-processing: 
 
