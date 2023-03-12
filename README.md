@@ -10,6 +10,8 @@ This project is divided into three modules:
 ## Module 1: Data Pre-processing
 In this Module you will be working on how to perform pre-processing of data and working on handling null values, deletion or transformation of irrelevant values, data type transformation, removing duplicates and data validations to get refined and cleaner data to perform further analysis. 
 
+download the superstore dataset: Click here
+
 #### Steps to perform Data Pre-processing: 
 
 Step 1: Removing duplicate rows ( there could be duplicate rows excluding Row_ID column ).
