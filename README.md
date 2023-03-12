@@ -23,6 +23,7 @@ Step 5: Convert the pre-processed dataset into an SQL file and import it to tabl
 ## Module 2 Data Analysis using SQL
 In this module, you will be working on performing data analysis on the pre-processed data from the previous module and conducting Data Analysis using SQL. You will generate queries for given problem statements. 
 Write an SQL query to solve the given problem statement. 
+
 #1. What percentage of total orders were shipped on the same date?
 
 #2. Name top 3 customers with highest total value of orders.
