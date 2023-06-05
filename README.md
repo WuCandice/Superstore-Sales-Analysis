@@ -54,5 +54,4 @@ In this module, you will be working on performing data analysis on the pre-proce
 #13. Find all the customers who individually ordered on 3 consecutive days where each day’s total order was more than 50 in value. **
 
 #14. Find the maximum number of days for which total sales on each day kept rising.
-## Module 3 Data Visualisation and Dashboarding using Power Bi/Tableau.
-In this Module, You will use the existing datasets from the previous module to visualize the messages that the numbers in and underneath the data desire to express. For visual comprehension and analysis, you will develop a dashboard employing various statistics graphs and diagrams. Develop and create a dashboard using the stated visuals in accordance with the specifications.
+
