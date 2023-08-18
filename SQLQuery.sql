@@ -97,7 +97,7 @@ order by total_sales desc
 ###order_id	total_sales
 ###CA-2015-145317	23661.23
 
-#9. Which segment’s order is more likely to be shipped via first class?
+#9. Which segmentâ€™s order is more likely to be shipped via first class?
 select top 1 segment, count(*) total_number
 from[dbo].[superstore]
 where ship_mode ='first class'
@@ -152,7 +152,7 @@ join cte2 as b
 on a.state=b.state and a.total_sales=b.max_sales
 order by state
 
-#13. Find all the customers who individually ordered on 3 consecutive days where each day’s total order was more than 50 in value. **
+#13. Find all the customers who individually ordered on 3 consecutive days where each dayâ€™s total order was more than 50 in value. **
 with cte as
 (select distinct customer_id, customer_name, order_date, round(sum(sales),2) as total_sales,
 	lead(Order_Date)over(partition by customer_id order by order_date) as next_day
