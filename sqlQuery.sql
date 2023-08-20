@@ -13,15 +13,15 @@ from[dbo].[superstore]
 
 #2. Name top 3 customers with highest total value of orders.
 ## the 'limit' keyword is not recognized in MS SQL. Instead, we should ust the 'top' kwywaord to limit the number of rows returned by the query.
-select top 3 customer_name as top_3_customers, round(sum(sales), 2) as total_sales
+select top 3 customer_name as top_3_customers, count(*) as total_orders
 from [dbo].[superstore]
 group by customer_name
-order by total_sales desc
+order by total_orders desc
 
-###top_3_customers	total_sales
-### Sean Miller  25043.05
-### Tamara Chand 19052.22
-### Raymond Buch 15117.34
+###top_3_customers	total_orders
+### Raymond Buch  6
+### Sean Millear 5
+### Tamara Chand 5
 
 #3. Find the top 5 items with the highest average sales per day.
 select top 5 product_name as top_5_items,  round(avg( sales),2) as average_sales
@@ -71,7 +71,7 @@ order by total_number desc
 ### sub_category	total_number
 ### Binders	        462
 
-#7. Which order has the highest number of items? And which order has the highest cumulative value?
+#7. Which order has the highest number of items? 
 select top 1 order_id, count(*) as total_items
 from[dbo].[superstore]
 group by order_id
@@ -80,13 +80,6 @@ order by total_items desc
 ###order_id	total_items
 ###CA-2018-100111	14
 
-select top 1 order_id, round(sum(sales),2) as total_sales
-from [dbo].[superstore]
-group by order_id
-order by total_sales desc
-
-###order_id	total_sales
-###CA-2015-145317	23661.23
 
 #8. Which order has the highest cumulative value?
 select top 1 order_id, round(sum(sales),2) as total_sales
