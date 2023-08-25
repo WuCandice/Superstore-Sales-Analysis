@@ -9,7 +9,7 @@ select count(*) AS TotalOrders,
 from[dbo].[superstore] 
 
 ###TotalOrders	SameShippedOrrders	PercentageOfTotalOrders
-###9788	        514	                 5.25
+###9993	        514	                 5.25
 
 #2. Name top 3 customers with highest total value of orders.
 ## the 'limit' keyword is not recognized in MS SQL. Instead, we should ust the 'top' kwywaord to limit the number of rows returned by the query.
