@@ -146,23 +146,28 @@ on a.state=b.state and a.total_sales=b.max_sales
 order by state
 
 #13. Find all the customers who individually ordered on 3 consecutive days where each day’s total order was more than 50 in value. **
-with cte as
-(select distinct customer_id, customer_name, order_date, round(sum(sales),2) as total_sales,
-	lead(Order_Date)over(partition by customer_id order by order_date) as next_day
-from[dbo].[superstore]
-group by customer_id, Customer_Name,order_date
-having round(sum(sales),2)>=50),
-cte2 as
-(select distinct Customer_ID, customer_name, Order_Date, next_day, lead(next_Day)over(partition by customer_id order by next_day) as n_next_day
-from cte)
-select distinct a.customer_name, a.order_date, a.next_day, a.n_next_day
-from cte2 as a
-join cte2 as b
-on a.customer_id=b.customer_id and DATEDIFF(day, a.order_date, b.next_day)=1
-join cte2 as c
-on b.customer_id=c.customer_id and DATEDIFF(day, b.next_day, c.n_next_day)=1
+WITH cte AS (
+    SELECT 
+        customer_id, 
+        customer_name, 
+        order_date, 
+        ROUND(SUM(sales), 2) as total_sales,
+        LEAD(order_date) OVER (PARTITION BY customer_id ORDER BY order_date) AS next_day,
+        LEAD(order_date, 2) OVER (PARTITION BY customer_id ORDER BY order_date) AS n_next_day
+    FROM [dbo].[superstore]
+    GROUP BY customer_id, customer_name, order_date
+    HAVING ROUND(SUM(sales), 2) >= 50
+)
 
-###none
+SELECT DISTINCT 
+    a.customer_name, 
+    a.order_date, 
+    a.next_day, 
+    a.n_next_day
+FROM cte AS a
+WHERE DATEDIFF(day, a.order_date, a.next_day) = 1 
+AND DATEDIFF(day, a.next_day, a.n_next_day) = 1;
+
 
 #14. Find the maximum number of days for which total sales on each day kept rising.**
 /* mysql
