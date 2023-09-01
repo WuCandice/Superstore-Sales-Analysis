@@ -79,7 +79,7 @@ GROUP BY a.city;
 
 
 #6. What is the most demanded sub-category in the west region?
-select top 1 sub_category, count (quantities) as total_number
+select top 1 sub_category, sum (quantities) as total_number
 from [dbo].[superstore]
 where Region = 'West'
 group by sub_category
