@@ -2,7 +2,7 @@ select *
 from[dbo].[superstore];
 
 #1 What percentage of total orders were shipped on the same date?
-/* ## the 'cast' function is used to convert the count of same-day shipped orders to a 'float' value */
+/* the 'cast' function is used to convert the count of same-day shipped orders to a 'float' value */
 select count(*) AS TotalOrders, 
 	sum(case when ship_date = order_date then 1 else 0 end) as SameShippedOrrders,
 	round((cast(sum(case when ship_date=order_date then 1 else 0 end) as float)/count(*))* 100, 2) as PercentageOfTotalOrders
@@ -12,7 +12,7 @@ from[dbo].[superstore]
 ###9993	        514	                 5.25
 
 #2. Name top 3 customers with highest total quantities of orders.
-/* ## the 'limit' keyword is not recognized in MS SQL. Instead, we should ust the 'top' kwywaord to limit the number of rows returned by the query. */
+/* the 'limit' keyword is not recognized in MS SQL. Instead, we should ust the 'top' kwywaord to limit the number of rows returned by the query. */
 select top 3 customer_name as top_3_customers, count(*) as total_orders
 from [dbo].[superstore]
 group by customer_name
@@ -54,7 +54,7 @@ ORDER BY avg_sales DESC;
 
 
 #5. Give the name of customers who ordered highest and lowest orders from each city.
-/* ## string_agg function is used to concatenate the customer name into a single string.*/
+/* string_agg function is used to concatenate the customer name into a single string.*/
 WITH cte AS (
     SELECT city, 
            customer_name, 
