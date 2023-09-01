@@ -2,7 +2,7 @@ select *
 from[dbo].[superstore];
 
 #1 What percentage of total orders were shipped on the same date?
-## the 'cast' function is used to convert the count of same-day shipped orders to a 'float' value
+/* ## the 'cast' function is used to convert the count of same-day shipped orders to a 'float' value */
 select count(*) AS TotalOrders, 
 	sum(case when ship_date = order_date then 1 else 0 end) as SameShippedOrrders,
 	round((cast(sum(case when ship_date=order_date then 1 else 0 end) as float)/count(*))* 100, 2) as PercentageOfTotalOrders
