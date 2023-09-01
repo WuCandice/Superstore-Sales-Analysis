@@ -55,25 +55,31 @@ ORDER BY avg_sales DESC;
 
 #5. Give the name of customers who ordered highest and lowest orders from each city.
 ## string_agg function is used to concatenate the customer name into a single string.
-with cte as
-(select city, customer_name, count(order_id) as num_orders
-from [dbo].[superstore]
-group by city, customer_name),
-cte2 as
-(select city, min(num_orders)as lowest_order, max(num_orders) as highest_order
-from cte
-group by city)
-select a.city,
-string_agg(case when  a.num_orders = b.lowest_order then a.customer_name end, ',')as lowest_order_customers,
-string_agg(case when  a.num_orders = b.highest_order then a.customer_name end, ',') as highest_order_customers
-from cte as a
-join cte2 as b
-on a.city=b.city
-group by a.city, b.lowest_order, b.highest_order
+WITH cte AS (
+    SELECT city, 
+           customer_name, 
+           COUNT(order_id) AS num_orders
+    FROM [dbo].[superstore]
+    GROUP BY city, customer_name
+),
+cte2 AS (
+    SELECT city, 
+           MIN(num_orders) AS lowest_order, 
+           MAX(num_orders) AS highest_order
+    FROM cte
+    GROUP BY city
+)
+SELECT a.city,
+       STRING_AGG(CASE WHEN a.num_orders = b.lowest_order THEN a.customer_name ELSE NULL END, ',') AS lowest_order_customers,
+       STRING_AGG(CASE WHEN a.num_orders = b.highest_order THEN a.customer_name ELSE NULL END, ',') AS highest_order_customers
+FROM cte a
+JOIN cte2 b ON a.city = b.city
+WHERE a.num_orders = b.lowest_order OR a.num_orders = b.highest_order
+GROUP BY a.city;
 
 
 #6. What is the most demanded sub-category in the west region?
-select top 1 sub_category, count (sub_category) as total_number
+select top 1 sub_category, count (quantities) as total_number
 from [dbo].[superstore]
 where Region = 'West'
 group by sub_category
@@ -195,9 +201,12 @@ join cte as b
 on datediff(b.order_date, a.order_date)=1
 where a.total_sale < b.total_sale
 order by a.order_date)
-select  datediff(max(Order_Date), min(Order_Date))
+select  datediff(max(Order_Date), min(Order_Date))as diff_in_days
 from cte2
 group by Order_Date - interval row_date day
 order by 1 desc
 limit 1
 */
+
+### diff_in_days
+### 4
