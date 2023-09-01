@@ -37,10 +37,21 @@ order by average_sales desc
 ###HP Designjet T520 Inkjet Large Format Printer - 24 Color	 6124.97
 
 #4. Write a query to find the average order value for each customer, and rank the customers by their average order value.
-select customer_name, round(avg(sales), 2) as avg_sales, rank()over(order by avg(sales) desc) as prank
-from [dbo].[superstore]
-group by customer_name
-order by avg_sales desc
+SELECT 
+    customer_name,
+    avg_sales,
+    RANK() OVER (ORDER BY avg_sales DESC) AS prank
+FROM (
+    SELECT 
+        customer_name,
+        ROUND(AVG(sales), 2) as avg_sales
+    FROM 
+        [dbo].[superstore]
+    GROUP BY 
+        customer_name
+) AS Subquery
+ORDER BY avg_sales DESC;
+
 
 #5. Give the name of customers who ordered highest and lowest orders from each city.
 ## string_agg function is used to concatenate the customer name into a single string.
