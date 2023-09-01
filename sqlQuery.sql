@@ -23,7 +23,7 @@ order by total_orders desc
 ### Sean Millear 5
 ### Tamara Chand 5
 
-#3. Find the top 5 items with the highest average sales per day.
+#3. Find the top 5 items with the highest average sales.
 select top 5 product_name as top_5_items,  round(avg( sales),2) as average_sales
 from[dbo].[superstore]
 group by product_name
