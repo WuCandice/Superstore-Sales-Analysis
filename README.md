@@ -2,7 +2,10 @@
 Project description from HiCounselor website: [Link](https://hicounselor.com/projects/superstore-sales-analysis-data-visualisation)
 
 ![Image](https://user-images.githubusercontent.com/127648422/224529590-829d20b8-d812-416e-ba33-c11a11132d7f.png)
-
+<p align="center">
+  <a href="https://www.slideshare.net/CandiceWu16/superstore-sales-reportpptx;">Review my Dashboard</a>
+</p>
+https://www.slideshare.net/CandiceWu16/superstore-sales-reportpptx
 #### Project Description
 This project will train you how to use SQL to analyze a real-world database, how to extract the most useful information from the dataset, how to pre-process the data using Python for improved performance, how to use a structured query language to retrieve useful information from the database, and how to visualize the data using the PowerBI tool.
 
