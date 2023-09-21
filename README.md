@@ -43,3 +43,15 @@ Orders by Shipping Preferences
 This section showcases the preferences of customers regarding shipping. Most customers prefer the standard class shipping (3K), with equal preference for first and second class shipping (1K each).
 Top Three Customers by Order
 This section highlights the top three customers by the number of orders placed. Raymond Buch leads with 6 orders, followed by Sean Miller and Tamara Chand, each with 5 orders.
+
+### Sales by Geographics
+<img width="734" alt="Pasted Graphic" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/ac7e36c3-3d71-45b6-923f-b2fb9f67ca09">
+
+### Product Performance
+<img width="735" alt="Pasted Graphic 2" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/bc45a27d-f412-4f16-a504-be7aad295171">
+
+<img width="403" alt="Screenshot 2023-09-20 at 22 07 24" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/37df7f8b-c9b8-491c-a321-a3cbfb7618a6">
+<img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/3ffab5ae-4719-4cbf-840b-093e5b568ab8">
+<img width="540" alt="Screenshot 2023-09-20 at 22 08 21" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/e08d8d20-23e4-44bf-975e-dcb1fa207cb6">
+
+
