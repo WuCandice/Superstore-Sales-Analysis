@@ -103,3 +103,7 @@ The plot provides a breakdown of profits for various product sub-categories base
 * The Copiers sub-category consistently performed well across all discount categories in the current year.
 * The Machines and Tables sub-categories faced losses in multiple discount categories.
 * Some sub-categories like Phones and Paper had profits in the "No Discount" and "10% to 20%" categories but were absent in the "Up to 10%" discount category.
+
+## Contact
+Thank you for reading. If you have any questions regarding this project, you can email me at candice.wu.555@gmail.com, or connect me on  <a href="https://www.linkedin.com/in/wu-candice/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
