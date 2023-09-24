@@ -45,25 +45,20 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 
 <img width="1079" alt="Screenshot 2023-09-24 at 00 15 21" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/5ee5321c-22d8-48ce-95d6-6c7776044af4">
 
-#### Top Three Cities by Sales Over Time:
-Los Angeles and New York City consistently lead in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022. 
-#### Bottom Three Cities by Sales Over Time:
-Philadelphia shows a promising upward trajectory, contrasting with the relatively stagnant sales in Houston and San Antonio. 	
-#### Top 10 Cities by Quantity:
-New York City and Los Angeles dominate in product quantities across all categories.
-#### Quantity by Sub-Category and State:
-Binders, Paper, and Phones are consistently popular across California, New York, and Texas.
+#### Insights: 
+* Los Angeles and New York City have consistently led in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022. 
+* Philadelphia shows a promising upward trajectory, contrasting with the relatively stagnant sales in Houston and San Antonio. 	
+* New York City and Los Angeles dominate in product quantities across all categories.
+* Binders, Paper, and Furnishings are consistently popular across California, New York, and Washington
 
 <img width="1081" alt="Screenshot 2023-09-24 at 00 15 00" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/58304d55-c891-4905-ba55-bd34695d82b0">
 
-#### Segment by Sales and Profit Over Time:
-Sales across all segments had increased year-over-year, with the Consumer segment leading the growth. The Home Office segment was smaller, yet it showed a significant increase in sales in 2022. Profit trends mirror the sales trends, but it's noteworthy that the Corporate segment's profit in 2022 didn't grow proportionally to its sales.
-#### Ship Mode by Sales and Profit Over Time:
-Standard Class remains the dominant shipping mode in terms of sales and profit, However, while sales for Standard Class increased in 2022, its profit decreased. First Class and Second Class have seen substantial growth in 2022. 
-#### Profit by Segment and Category
-The Consumer segment dominates in profit in Technology. This suggests that consumer-oriented tech products might be the most profitable items. Furniture is the least profitable category across all segments, indicating potential areas for cost optimization or pricing adjustments.
-#### Top 10 Cities by Orders
-New York City and Los Angeles had the most orders, highlighting their importance to Superstore's overall sales success.
+#### Insights:
+
+* Sales across all segments had increased year-over-year, with the Consumer segment leading the growth. The Home Office segment was smaller, yet it showed a significant increase in sales in 2022. Profit trends mirror the sales trends, but it's noteworthy that the Corporate segment's profit in 2022 didn't grow proportionally to its sales.
+* Standard Class remains the dominant shipping mode in terms of sales and profit, However, while sales for Standard Class increased in 2022, its profit decreased. First Class and Second Class have seen substantial growth in 2022. 
+* The Consumer segment dominates in profit in Technology. This suggests that consumer-oriented tech products might be the most profitable items. Furniture is the least profitable category across all segments, indicating potential areas for cost optimization or pricing adjustments.
+* New York City and Los Angeles had the most orders, highlighting their importance to Superstore's overall sales success.
 
 <img width="1082" alt="Screenshot 2023-09-24 at 00 14 33" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/0abedbda-3c19-4907-9dd3-ce577f2a5550">
 
@@ -84,18 +79,22 @@ New York City and Los Angeles had the most orders, highlighting their importance
 <img width="1084" alt="Screenshot 2023-09-24 at 00 14 04" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f7d42ea1-c05d-4a52-a41e-cb175260c578">
 
 #### PVM by Category:
-* **Profit Drivers**: The Copiers sub-category had the highest profit, followed by Phones and Paper. These were the primary profit drivers for the store. The Tables sub-category operated at a significant loss, while Bookcases yielded minimal profit. These indicate areas of concern that require attention.
-* **Price Impact**: The profit from the Binders sub-category significantly decreased due to its pricing, whereas Copiers and Phones benefited from their pricing strategies.
-* **Volume Impact**: Storage and Phones experienced a positive impact on profit due to volume, while Machines were negatively affected.
-* **Mix Impact**: The Binders sub-category benefited the most from the product mix, whereas Envelopes were adversely affected.
-* **New Products Impact**: Copiers and Phones saw significant profits from new products, but Machines and Tables were negatively impacted.
-* **Discontinued Products Impact**: Discontinuing certain products in the Machines and Tables sub-categories resulted in losses.
+**Profit PY**: This represents the profit from the previous year.
+**Price Impact**: This shows the impact on profit due to changes in the selling price of products.
+**Volume Impact**: This indicates the impact on profit due to changes in the quantity sold.
+**Mix Impact**: This shows the impact on profit due to changes in the sales mix of products.
+**New Products Impact**: This represents the profit impact from introducing new products.
+Discontinued Products Impact: This shows the profit impact from discontinuing certain products.
+**Profit AC**: This represents the profit for the current year.
+
+* The Copiers sub-category consistently performed well across most factors, especially in terms of profit.
+* The Machines sub-category faced challenges, particularly with new products and discontinued products, leading to significant losses.
+* The Binders sub-category had a mixed performance, with significant negative impacts from price changes but positive impacts from mix changes.
 
 <img width="1085" alt="Screenshot 2023-09-23 at 23 51 52" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/76ead2aa-6c61-46ab-8b69-0a3dd68a1cce">
 
 The table provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
 #### Profit by Discount
-* **No Discount**: The highest profit without any discount was seen in the Copiers sub-category, followed by Phones and Paper.
-* **Up to 10% Discount**:  Chairs had the highest profit in this discount range.
-* **10% to 20% Discount**: The Copiers sub-category led in profit, followed closely by Phones and Paper.
-* **Greater than 20% Discount**: Despite offering a hefty discount, the Copiers sub-category still managed to top in profit, but Machines and Tables operated at a loss.
+* The Copiers sub-category consistently performed well across all discount categories in the current year.
+* The Machines and Tables sub-categories faced losses in multiple discount categories.
+* Some sub-categories like Phones and Paper had profits in the "No Discount" and "10% to 20%" categories but were absent in the "Up to 10%" discount category.
