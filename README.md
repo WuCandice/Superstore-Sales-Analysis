@@ -90,11 +90,6 @@ Raymond Buch, Sean Miler, and Tamara Chand are our most frequent shoppers with m
 <img width="1086" alt="Screenshot 2023-09-22 at 20 53 30" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/31bdbdcf-1e5c-4347-ba81-88804a233d38">
 
 The table provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
-* Discount Category: This column categorizes the products based on the level of discount applied to them. The categories are:
-No Discount
-Up to 10%
-10% to 20%
-Greater than 20%
 * No Discount: The highest profit without any discount is seen in the "Copiers" sub-category, followed by "Phones" and "Paper".
 * Up to 10% Discount: "Chairs" have the highest profit in this discount range.
 * 10% to 20% Discount: The "Copiers" sub-category leads in profit, followed closely by "Phones" and "Paper".
