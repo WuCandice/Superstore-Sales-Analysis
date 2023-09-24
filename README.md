@@ -77,9 +77,8 @@ New York City and Los Angeles had the most orders, highlighting their importance
 - The "Cisco TelePresence System EX90 Videoconferencing Unit”,  "Cubify CubeX 3D Printer Triple Head Print",  “High-Speed Automatic Electric Letter Opener" and "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish" showcased decent sales, but negative profit, indicating inefficiencies.
 - "Canon imageCLASS 2200 Advanced Copier" had a good balance of high sales and profit, indicating it's both popular and profitable.
 
-<img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
-
 #### Basket Items:
+<img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
 * The items "FUR-FU-10003464" and "TEC-PH-10002496" are often bought together, appearing in 0.04% of all transactions. If a customer buys "FUR-FU-10003464", there's a 50% chance they'll also buy "TEC-PH-10002496". Their combined purchase likelihood is four times higher than when bought separately.
 
 <img width="796" alt="Screenshot 2023-09-23 at 23 45 43" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/ac9f6e1a-e823-416e-baf6-b5d646f5f17b">
