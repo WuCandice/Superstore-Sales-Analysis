@@ -22,8 +22,7 @@ Superstore is a fictional retail company based in the United States. They specia
 The original dataset was obtained from the HiCounselor website. It contains 9993 sales transactions that occurred from 2019 to 2022. This dataset encompasses a wide range of information, including order specifics, geographical data, and product-related data. There are no missing values or any irrelevant data types and values. During the inspection process, a duplicate entry was identified and removed for accuracy. For those who are interested in viewing or downloading the refined dataset, it is available in my GitHub repository.
 
 ## DASHBOARDS:
-<img width="1080" alt="Screenshot 2023-09-23 at 23 47 55" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/bd3fb6ee-09f2-42f5-b7fa-5cd1b1fe366d">
-
+<img width="1081" alt="Screenshot 2023-09-24 at 00 15 42" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f0bb8ff6-eb37-4e93-8dad-9f8c322d851e">
 
 ### KPIs: 
 Over the past four years, Superstore generated $2.3 million in revenue but only had a gross profit of $286.41K. The company's average discount stood at 15.62%, suggesting that the discounting strategy might have influenced the profit margin. A detailed breakdown of the profit margin within the discount category will be explored later in the Financial Analysis dashboard.
@@ -44,7 +43,7 @@ Most customers preferred Standard Class shipping, indicating that they might pri
 * Top Three Customers by Order:
 Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with a max of 6 orders for the past 4 years. This pattern suggests a potential gap in customer loyalty. To address this, Superstore could introduce exclusive offers and a loyalty program, adjust pricing for regular customers, and actively seek their feedback to refine the shopping experience. Engaging customers through educational content on social media, newsletters, and tailored content for different segments could further foster loyalty and retention.
 
-<img width="1082" alt="Screenshot 2023-09-23 at 23 50 06" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/72d17110-9e96-469f-a701-6214307d11bf">
+<img width="1079" alt="Screenshot 2023-09-24 at 00 15 21" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/5ee5321c-22d8-48ce-95d6-6c7776044af4">
 
 #### Top Three Cities by Sales Over Time:
 Los Angeles and New York City consistently lead in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022. 
@@ -55,7 +54,7 @@ New York City and Los Angeles dominate in product quantities across all categori
 #### Quantity by Sub-Category and State:
 Binders, Paper, and Phones are consistently popular across California, New York, and Texas.
 
-<img width="1081" alt="Screenshot 2023-09-23 at 23 50 34" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/3e021c3c-68a0-427e-aa34-b71783e004f9">
+<img width="1081" alt="Screenshot 2023-09-24 at 00 15 00" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/58304d55-c891-4905-ba55-bd34695d82b0">
 
 #### Segment by Sales and Profit Over Time:
 Sales across all segments had increased year-over-year, with the Consumer segment leading the growth. The Home Office segment was smaller, yet it showed a significant increase in sales in 2022. Profit trends mirror the sales trends, but it's noteworthy that the Corporate segment's profit in 2022 didn't grow proportionally to its sales.
@@ -66,7 +65,7 @@ The Consumer segment dominates in profit in Technology. This suggests that consu
 #### Top 10 Cities by Orders
 New York City and Los Angeles had the most orders, highlighting their importance to Superstore's overall sales success.
 
-<img width="1083" alt="Screenshot 2023-09-23 at 23 51 12" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/809c29a4-21e9-48c3-b366-b103228f9015">
+<img width="1082" alt="Screenshot 2023-09-24 at 00 14 33" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/0abedbda-3c19-4907-9dd3-ce577f2a5550">
 
 #### Top Performing Sub-Categories:
 - Phones, Chairs, and Storage are the top three sub-categories in sales.
@@ -82,7 +81,7 @@ New York City and Los Angeles had the most orders, highlighting their importance
 
 * The items "FUR-FU-10003464" and "TEC-PH-10002496" are often bought together, appearing in 0.04% of all transactions. If a customer buys "FUR-FU-10003464", there's a 50% chance they'll also buy "TEC-PH-10002496". Their combined purchase likelihood is four times higher than when bought separately.
 
-<img width="1082" alt="Screenshot 2023-09-23 at 23 51 33" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/a0978d8c-40fe-4072-8bd8-92abcb193dbd">
+<img width="1084" alt="Screenshot 2023-09-24 at 00 14 04" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f7d42ea1-c05d-4a52-a41e-cb175260c578">
 
 #### PVM by Category:
 * **Profit Drivers**: The Copiers sub-category had the highest profit, followed by Phones and Paper. These were the primary profit drivers for the store. The Tables sub-category operated at a significant loss, while Bookcases yielded minimal profit. These indicate areas of concern that require attention.
