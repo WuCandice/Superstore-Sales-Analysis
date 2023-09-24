@@ -79,9 +79,10 @@ New York City and Los Angeles had the most orders, highlighting their importance
 
 #### Basket Items:
 <img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
+
 * The items "FUR-FU-10003464" and "TEC-PH-10002496" are often bought together, appearing in 0.04% of all transactions. If a customer buys "FUR-FU-10003464", there's a 50% chance they'll also buy "TEC-PH-10002496". Their combined purchase likelihood is four times higher than when bought separately.
 
-<img width="796" alt="Screenshot 2023-09-23 at 23 45 43" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/ac9f6e1a-e823-416e-baf6-b5d646f5f17b">
+<img width="1082" alt="Screenshot 2023-09-23 at 23 51 33" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/a0978d8c-40fe-4072-8bd8-92abcb193dbd">
 
 #### PVM by Category:
 * **Profit Drivers**: The "Copiers" sub-category had the highest profit, followed by "Phones" and "Paper". These were the main profit drivers for the store. The "Tables" sub-category was operating at a significant loss, and "Bookcases" had a minimal profit, indicating areas of concern that need attention.
