@@ -45,19 +45,24 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 
 <img width="1079" alt="Screenshot 2023-09-24 at 00 15 21" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/5ee5321c-22d8-48ce-95d6-6c7776044af4">
 
-#### Insights: 
-* Los Angeles and New York City have consistently led in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022. 
+#### Top Three Cities by Sales Over Time:
+* Los Angeles and New York City have consistently led in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022.
+#### Bottom Three Cities by Sales Over Time
 * Philadelphia shows a promising upward trajectory, contrasting with the relatively stagnant sales in Houston and San Antonio. 	
+#### Top 10 Cities by Quantity
 * New York City and Los Angeles dominate in product quantities across all categories.
+#### Quantity by Sub-Category and State
 * Binders, Paper, and Furnishings are consistently popular across California, New York, and Washington
 
 <img width="1081" alt="Screenshot 2023-09-24 at 00 15 00" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/58304d55-c891-4905-ba55-bd34695d82b0">
 
-#### Insights:
-
+#### Segment by Sales and Profit Over Time:
 * Sales across all segments had increased year-over-year, with the Consumer segment leading the growth. The Home Office segment was smaller, yet it showed a significant increase in sales in 2022. Profit trends mirror the sales trends, but it's noteworthy that the Corporate segment's profit in 2022 didn't grow proportionally to its sales.
+#### Ship Mode by Sales and Profit Over Time:
 * Standard Class remains the dominant shipping mode in terms of sales and profit, However, while sales for Standard Class increased in 2022, its profit decreased. First Class and Second Class have seen substantial growth in 2022. 
+#### Profit by Segment and Category:
 * The Consumer segment dominates in profit in Technology. This suggests that consumer-oriented tech products might be the most profitable items. Furniture is the least profitable category across all segments, indicating potential areas for cost optimization or pricing adjustments.
+#### Top 10 Cities by Orders:
 * New York City and Los Angeles had the most orders, highlighting their importance to Superstore's overall sales success.
 
 <img width="1082" alt="Screenshot 2023-09-24 at 00 14 33" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/0abedbda-3c19-4907-9dd3-ce577f2a5550">
