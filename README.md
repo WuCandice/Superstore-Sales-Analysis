@@ -4,8 +4,6 @@ Project description from HiCounselor website: [Link](https://hicounselor.com/pro
 
 ![Image](https://user-images.githubusercontent.com/127648422/224529590-829d20b8-d812-416e-ba33-c11a11132d7f.png)
 
-<p align="center">
-  <a href="https://www.slideshare.net/CandiceWu16/superstore-sales-reportpptx" style="text-decoration: none; border-bottom: none;">Review my Dashboard</a></p>
 
 ## EXECUTIVE OVERVIEW:
 Superstore is a fictional retail company in the United States. They specialize in selling furniture, office supplies, and technology products. This summer, they hired me as a Business Intelligence Analyst at their Seattle office. My role is to identify weaknesses and opportunities in their marketing performance. My goal is to help them enhance their business growth and productivity.
