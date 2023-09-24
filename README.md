@@ -98,7 +98,7 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 
 <img width="1085" alt="Screenshot 2023-09-23 at 23 51 52" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/76ead2aa-6c61-46ab-8b69-0a3dd68a1cce">
 
-The table provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
+The plot provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
 #### Profit by Discount
 * The Copiers sub-category consistently performed well across all discount categories in the current year.
 * The Machines and Tables sub-categories faced losses in multiple discount categories.
