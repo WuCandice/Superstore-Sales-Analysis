@@ -64,17 +64,17 @@ Raymond Buch, Sean Miler, and Tamara Chand are our most frequent shoppers with m
 * Profit Margin: "Labels", "Paper", and "Envelopes" are the most profitable sub-categories in terms of profit margin percentage. This indicates efficient cost management for these products.
 
 #### Top Products by Sales vs. Profit:
-    * The "Cisco TelePresence System EX90 Videoconferencing Unit" leads in sales, but its profit is not the highest among the top products. This suggests that while the product is popular, its cost structure or pricing might need revisiting.
-    * "Canon imageCLASS 2200 Advanced Copier" has a good balance of high sales and profit, indicating it's both popular and profitable.
-    * Some products, like the "Cubify CubeX 3D Printer Triple Head Print", despite having high sales, operate at a loss. This is a red flag and suggests a need for pricing or cost structure review.
-    * Products like the "High Speed Automatic Electric Letter Opener" and "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish" have decent sales but minimal or negative profit, indicating potential inefficiencies.
+* The "Cisco TelePresence System EX90 Videoconferencing Unit" leads in sales, but its profit is not the highest among the top products. This suggests that while the product is popular, its cost structure or pricing might need revisiting.
+* "Canon imageCLASS 2200 Advanced Copier" has a good balance of high sales and profit, indicating it's both popular and profitable.
+* Some products, like the "Cubify CubeX 3D Printer Triple Head Print", despite having high sales, operate at a loss. This is a red flag and suggests a need for pricing or cost structure review.
+* Products like the "High Speed Automatic Electric Letter Opener" and "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish" have decent sales but minimal or negative profit, indicating potential inefficiencies.
    
-    <img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
+<img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
 
 #### Basket Items:
-    * The combination of products "FUR-FU-10003464" and "TEC-PH-10002496" are frequently bought together, with a support of 0.040%. This means that in 0.040% of all transactions, these two items are bought together.
-    * The confidence of 50.000% indicates that when "FUR-FU-10003464" is purchased, there's a 50% chance "TEC-PH-10002496" is also in the cart.
-    * The average lift of 4 suggests that "FUR-FU-10003464" and "TEC-PH-10002496" are four times more likely to be bought together than if they were purchased individually.
+* The combination of products "FUR-FU-10003464" and "TEC-PH-10002496" are frequently bought together, with a support of 0.040%. This means that in 0.040% of all transactions, these two items are bought together.
+* The confidence of 50.000% indicates that when "FUR-FU-10003464" is purchased, there's a 50% chance "TEC-PH-10002496" is also in the cart.
+* The average lift of 4 suggests that "FUR-FU-10003464" and "TEC-PH-10002496" are four times more likely to be bought together than if they were purchased individually.
 
 <img width="734" alt="Pasted Graphic 8" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/7f8fe47f-2e23-44a9-8d10-117bffadf30c">
 
@@ -90,11 +90,11 @@ Raymond Buch, Sean Miler, and Tamara Chand are our most frequent shoppers with m
 <img width="1086" alt="Screenshot 2023-09-22 at 20 53 30" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/31bdbdcf-1e5c-4347-ba81-88804a233d38">
 
 The table provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
-* 		Discount Category: This column categorizes the products based on the level of discount applied to them. The categories are:
-    * No Discount
-    * Up to 10%
-    * 10% to 20%
-    * Greater than 20%
+* Discount Category: This column categorizes the products based on the level of discount applied to them. The categories are:
+No Discount
+Up to 10%
+10% to 20%
+Greater than 20%
 * No Discount: The highest profit without any discount is seen in the "Copiers" sub-category, followed by "Phones" and "Paper".
 * Up to 10% Discount: "Chairs" have the highest profit in this discount range.
 * 10% to 20% Discount: The "Copiers" sub-category leads in profit, followed closely by "Phones" and "Paper".
