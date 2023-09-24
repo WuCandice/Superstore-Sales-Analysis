@@ -6,7 +6,7 @@ Project description from HiCounselor website: [Link](https://hicounselor.com/pro
 
 
 ## EXECUTIVE OVERVIEW:
-Superstore is a fictional retail company based in the United States. They specialize in selling furniture, office supplies, and technology products. This summer, they hired me as a Business Intelligence Analyst at their Seattle office. My role is to identify weaknesses and opportunities within their business. My goal is to help them enhance their business growth and profitability.
+Superstore is a fictional retail company based in the United States. They specialize in selling furniture, office supplies, and technology products. This summer, they hired me as a Business Intelligence Analyst at their Seattle office. My role is to identify weaknesses and opportunities within their business, and my goal is to help them enhance their business growth and profitability.
 
 ### Business Questions:
 - Which states and cities are generating the highest revenue?
