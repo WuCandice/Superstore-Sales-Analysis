@@ -85,11 +85,11 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 
 #### PVM by Category:
 **Profit PY**: This represents the profit from the previous year.</p>
-**Price Impact**: This shows the impact on profit due to changes in the selling price of products. </p>
-**Volume Impact**: This indicates the impact on profit due to changes in the quantity sold.</p>
-**Mix Impact**: This shows the impact on profit due to changes in the sales mix of products.</p>
-**New Products Impact**: This represents the profit impact from introducing new products.</p>
-Discontinued Products Impact: This shows the profit impact from discontinuing certain products.</p>
+**Price**: This shows the impact on profit due to changes in the selling price of products. </p>
+**Volume**: This indicates the impact on profit.</p>
+**Mix**: This shows the impact on profit due to changes in the sales mix of products.</p>
+**New Products**: This represents the profit impact from introducing new products.</p>
+**Discontinued Products**: This shows the profit impact from discontinuing certain products.</p>
 **Profit AC**: This represents the profit for the current year.</p>
 
 * The Copiers sub-category consistently performed well across most factors, especially in terms of profit.
