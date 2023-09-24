@@ -25,15 +25,15 @@ The original dataset was obtained from the HiCounselor website. It contains 9993
 <img width="1081" alt="Screenshot 2023-09-24 at 00 15 42" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f0bb8ff6-eb37-4e93-8dad-9f8c322d851e">
 
 ### KPIs: 
-Over the past four years, Superstore generated $2.3 million in revenue but only had a gross profit of $286.41K. The company's average discount stood at 15.62%, suggesting that the discounting strategy might have influenced the profit margin. A detailed breakdown of the profit margin within the discount category will be explored later in the Financial Analysis dashboard.
+* Over the past four years, Superstore generated $2.3 million in revenue but only had a gross profit of $286.41K. The company's average discount stood at 15.62%, suggesting that the discounting strategy might have influenced the profit margin. A detailed breakdown of the profit margin within the discount category will be explored later in the Financial Analysis dashboard.
 
 ### Sales by Region and state:
-The West region boasted the highest revenue, with sales amounting to $725K, followed by the East region with sales of $678K. Within those two regions, California, Washington, and New York were the top states that contributed the most revenue to the company. Therefore, the company should focus on marketing efforts and optimizing inventory in those states to further increase sales. 
+* The West region boasted the highest revenue, with sales amounting to $725K, followed by the East region with sales of $678K. Within those two regions, California, Washington, and New York were the top states that contributed the most revenue to the company. Therefore, the company should focus on marketing efforts and optimizing inventory in those states to further increase sales. 
 
-The Central region with sales of $501K, and the South with sales of $392K, represented two regions that might have had untapped potential worth exploring.
+* The Central region with sales of $501K, and the South with sales of $392K, represented two regions that might have had untapped potential worth exploring.
 
 ### Sales vs. Profit by Category and Sub-Category:
-The Technology category emerged as the leading performer in both sales and profit. Within this category, the Phones sub-category stood out with impressive sales and profit figures. On the other hand, the Furniture category showcased significant sales but had a notably lower profit margin. Within the Furniture category, the Tables displayed decent sales but operated at a loss. Additionally, both Bookcases and Supplies resulted in a negative profit for the company. These observations raise concerns, suggesting potential issues with the cost structure or pricing strategy, especially for the Tables, Bookcases, and Supplies subcategories.
+* The Technology category emerged as the leading performer in both sales and profit. Within this category, the Phones sub-category stood out with impressive sales and profit figures. On the other hand, the Furniture category showcased significant sales but had a notably lower profit margin. Within the Furniture category, the Tables displayed decent sales but operated at a loss. Additionally, both Bookcases and Supplies resulted in a negative profit for the company. These observations raise concerns, suggesting potential issues with the cost structure or pricing strategy, especially for the Tables, Bookcases, and Supplies subcategories.
 
 ### Customer Segments and Preferences
 * Orders by Customer Segment:
@@ -84,13 +84,13 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 <img width="1084" alt="Screenshot 2023-09-24 at 00 14 04" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f7d42ea1-c05d-4a52-a41e-cb175260c578">
 
 #### PVM by Category:
-**Profit PY**: This represents the profit from the previous year.
-**Price Impact**: This shows the impact on profit due to changes in the selling price of products.
-**Volume Impact**: This indicates the impact on profit due to changes in the quantity sold.
-**Mix Impact**: This shows the impact on profit due to changes in the sales mix of products.
-**New Products Impact**: This represents the profit impact from introducing new products.
-Discontinued Products Impact: This shows the profit impact from discontinuing certain products.
-**Profit AC**: This represents the profit for the current year.
+**Profit PY**: This represents the profit from the previous year.</p>
+**Price Impact**: This shows the impact on profit due to changes in the selling price of products. </p>
+**Volume Impact**: This indicates the impact on profit due to changes in the quantity sold.</p>
+**Mix Impact**: This shows the impact on profit due to changes in the sales mix of products.</p>
+**New Products Impact**: This represents the profit impact from introducing new products.</p>
+Discontinued Products Impact: This shows the profit impact from discontinuing certain products.</p>
+**Profit AC**: This represents the profit for the current year.</p>
 
 * The Copiers sub-category consistently performed well across most factors, especially in terms of profit.
 * The Machines sub-category faced challenges, particularly with new products and discontinued products, leading to significant losses.
