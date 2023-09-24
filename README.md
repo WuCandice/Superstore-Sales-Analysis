@@ -85,8 +85,8 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 
 #### PVM by Category:
 **Profit PY**: This represents the profit from the previous year.</p>
-**Price**: This shows the impact on profit due to changes in the selling price of products. </p>
-**Volume**: This indicates the impact on profit.</p>
+**Price**: This shows the impact on profit. </p>
+**Volume**: This indicates the impact on profit due to changes in the quantity sold..</p>
 **Mix**: This shows the impact on profit due to changes in the sales mix of products.</p>
 **New Products**: This represents the profit impact from introducing new products.</p>
 **Discontinued Products**: This shows the profit impact from discontinuing certain products.</p>
