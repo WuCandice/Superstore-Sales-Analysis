@@ -85,18 +85,18 @@ New York City and Los Angeles had the most orders, highlighting their importance
 <img width="796" alt="Screenshot 2023-09-23 at 23 45 43" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/ac9f6e1a-e823-416e-baf6-b5d646f5f17b">
 
 #### PVM by Category:
-* Profit Drivers: The "Copiers" sub-category had the highest profit, followed by "Phones" and "Paper". These were the main profit drivers for the store. The "Tables" sub-category was operating at a significant loss, and "Bookcases" had a minimal profit, indicating areas of concern that need attention.
-* Price Impact: The "Binders" sub-category had seen a significant reduction in profit due to its price, while "Copiers" and "Phones" had benefited from their pricing strategy.
-* Volume Impact: "Storage" and "Phones" had seen a positive impact on profit due to volume, while "Machines" have been negatively impacted.
-* Mix Impact: The "Binders" sub-category has benefited the most from the product mix, while "Envelopes" have been negatively impacted.
-* New Products Impact: "Copiers" and "Phones" have seen a significant profit from new products, but "Machines" and "Tables" have been negatively impacted.
-* Discontinued Products Impact: The discontinuation of certain products in the "Machines" and "Tables" sub-categories has led to a loss.
+* **Profit Drivers**: The "Copiers" sub-category had the highest profit, followed by "Phones" and "Paper". These were the main profit drivers for the store. The "Tables" sub-category was operating at a significant loss, and "Bookcases" had a minimal profit, indicating areas of concern that need attention.
+* **Price Impact**: The "Binders" sub-category had seen a significant reduction in profit due to its price, while "Copiers" and "Phones" had benefited from their pricing strategy.
+* **Volume Impact**: "Storage" and "Phones" had seen a positive impact on profit due to volume, while "Machines" have been negatively impacted.
+* **Mix Impact**: The "Binders" sub-category has benefited the most from the product mix, while "Envelopes" have been negatively impacted.
+* **New Products Impact**: "Copiers" and "Phones" have seen a significant profit from new products, but "Machines" and "Tables" have been negatively impacted.
+* **Discontinued Products Impact**: The discontinuation of certain products in the "Machines" and "Tables" sub-categories has led to a loss.
 
 <img width="1085" alt="Screenshot 2023-09-23 at 23 51 52" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/76ead2aa-6c61-46ab-8b69-0a3dd68a1cce">
 
 The table provides a breakdown of profits for various product sub-categories based on the discounts applied to them. The profits are presented for the current year (denoted as "AC") and the previous year (denoted as "PY").
 #### Profit by Discount
-* No Discount: The highest profit without any discount is seen in the "Copiers" sub-category, followed by "Phones" and "Paper".
-* Up to 10% Discount: "Chairs" have the highest profit in this discount range.
-* 10% to 20% Discount: The "Copiers" sub-category leads in profit, followed closely by "Phones" and "Paper".
-* Greater than 20% Discount: Despite offering a hefty discount, the "Copiers" sub-category still manages to top in profit, but "Machines" and "Tables" are operating at a loss.
+* **No Discount**: The highest profit without any discount is seen in the "Copiers" sub-category, followed by "Phones" and "Paper".
+* **Up to 10% Discount**: "Chairs" have the highest profit in this discount range.
+* **10% to 20% Discount**: The "Copiers" sub-category leads in profit, followed closely by "Phones" and "Paper".
+* **Greater than 20% Discount**: Despite offering a hefty discount, the "Copiers" sub-category still manages to top in profit, but "Machines" and "Tables" are operating at a loss.
