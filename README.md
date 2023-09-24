@@ -22,7 +22,8 @@ Superstore is a fictional retail company based in the United States. They specia
 The original dataset was obtained from the HiCounselor website. It contains 9993 sales transactions that occurred from 2019 to 2022. This dataset encompasses a wide range of information, including order specifics, geographical data, and product-related data. There are no missing values or any irrelevant data types and values. During the inspection process, a duplicate entry was identified and removed for accuracy. For those who are interested in viewing or downloading the refined dataset, it is available in my GitHub repository.
 
 ## DASHBOARDS:
-<img width="735" alt="Pasted Graphic 4" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/6f8e47ec-6d6e-4e61-99ab-fbdff8f6568f">
+<img width="735" alt="image" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/acec4fb2-5a28-4817-9622-5612eaa9b291">
+
 
 ### KPIs: 
 Over the past four years, Superstore generated $2.3 million in revenue but only had a gross profit of $286.41K. The company's average discount stood at 15.62%, suggesting that the discounting strategy might have influenced the profit margin. A detailed breakdown of the profit margin within the discount category will be explored later in the Financial Analysis dashboard.
