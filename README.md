@@ -44,7 +44,8 @@ Most customers preferred Standard Class shipping, indicating that they might pri
 * Top Three Customers by Order:
 Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with a max of 6 orders for the past 4 years. This pattern suggests a potential gap in customer loyalty. To address this, Superstore could introduce exclusive offers and a loyalty program, adjust pricing for regular customers, and actively seek their feedback to refine the shopping experience. Engaging customers through educational content on social media, newsletters, and tailored content for different segments could further foster loyalty and retention.
 
-<img width="734" alt="Pasted Graphic 5" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/b36ed1ce-a0b8-48af-9cd4-70f728ece3db">
+
+<img width="798" alt="Screenshot 2023-09-23 at 23 44 26" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/5893d82d-3fa8-472a-8059-43570cab713c">
 
 * Top Three Cities by Sales Over Time:
 Los Angeles and New York City consistently lead in sales, but while Los Angeles saw a slight decline in 2022, New York City surged. Seattle, on the other hand, experienced a significant rebound in 2022. 
