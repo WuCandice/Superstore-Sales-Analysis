@@ -73,13 +73,13 @@ Raymond Buch, Sean Miler, and Tamara Chand were the most frequent shoppers with 
 -  Labels, Paper, and Envelopes are the most profitable sub-categories, which indicates that the cost of goods sold was lucrative for those products.
 
 #### Top Products by Sales vs. Profit:
-- The "Cisco TelePresence System EX90 Videoconferencing Unit”,  "Cubify CubeX 3D Printer Triple Head Print",  “High-Speed Automatic Electric Letter Opener" and "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish" showcased decent sales, but negative profit, indicating inefficiencies.
-- "Canon imageCLASS 2200 Advanced Copier" had a good balance of high sales and profit, indicating it's both popular and profitable.
+- The "Cisco TelePresence System EX90 Videoconferencing Unit”,  "Cubify CubeX 3D Printer Triple Head Print",  “High-Speed Automatic Electric Letter Opener" and "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish" showcased decent sales, but they had negative profit to Superstore, which indicated inefficiencies.
+- "Canon imageCLASS 2200 Advanced Copier" had a good balance of high sales and profit, which indicated it was both popular and profitable.
 
 #### Basket Items:
 <img width="338" alt="Screenshot 2023-09-20 at 22 08 05" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/af9d6ad5-5ae1-4620-a7eb-afea5c2e541d">
 
-* The items "FUR-FU-10003464" and "TEC-PH-10002496" are often bought together, appearing in 0.04% of all transactions. If a customer buys "FUR-FU-10003464", there's a 50% chance they'll also buy "TEC-PH-10002496". Their combined purchase likelihood is four times higher than when bought separately.
+* The items "FUR-FU-10003464" and "TEC-PH-10002496" were often bought together, appearing in 0.04% of all transactions. If a customer buys "FUR-FU-10003464", there's a 50% chance they'll also buy "TEC-PH-10002496". Their combined purchase likelihood is four times higher than when bought separately.
 
 <img width="1084" alt="Screenshot 2023-09-24 at 00 14 04" src="https://github.com/WuCandice/Superstore-Sales-Analysis/assets/127648422/f7d42ea1-c05d-4a52-a41e-cb175260c578">
 
